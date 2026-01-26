@@ -20,6 +20,10 @@ export default defineConfig({
         title: 'Components',
         link: '/components',
       },
+      {
+        title: 'Playground',
+        link: '/playground',
+      },
     ],
     nprogress: true,
     socialLinks: {
