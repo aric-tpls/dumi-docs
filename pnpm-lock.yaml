@@ -14,6 +14,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^17.1.0
         version: 17.8.1
+      '@types/react':
+        specifier: ^19.2.9
+        version: 19.2.9
       dumi:
         specifier: ^2.4.13
         version: 2.4.21(@babel/core@7.28.6)(@swc/helpers@0.5.15)(@types/node@20.5.1)(@types/react@19.2.9)(eslint@8.57.1)(less-loader@12.3.0(less@4.5.1)(webpack@5.104.1(@swc/core@1.9.2(@swc/helpers@0.5.15))))(less@4.5.1)(lightningcss@1.22.1)(prettier@2.8.8)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(resolve-url-loader@5.0.0)(rollup@2.79.2)(sass-loader@16.0.6(sass@1.97.3)(webpack@5.104.1(@swc/core@1.9.2(@swc/helpers@0.5.15))))(stylelint@14.16.1)(terser@5.46.0)(type-fest@4.41.0)(typescript@5.9.3)(webpack@5.104.1(@swc/core@1.9.2(@swc/helpers@0.5.15)))
