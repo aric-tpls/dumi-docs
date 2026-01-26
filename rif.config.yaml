@@ -1,0 +1,12 @@
+name: replace-in-files
+files:
+  - 'docs/**/*.md'
+  - '.*'
+  - '*'
+  - '!node_modules'
+  - '!rif.config.yaml'
+replacements:
+  - from: /dumi-docs-decription/g
+    to: Balabala desc.
+  - from: /dumi-docs/g
+    to: ${PROJECT_NAME}

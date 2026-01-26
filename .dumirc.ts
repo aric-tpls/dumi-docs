@@ -23,7 +23,7 @@ export default defineConfig({
     ],
     nprogress: true,
     socialLinks: {
-      github: 'https://github.com/afeiship/dumi-docs',
+      github: 'https://github.com/aric-tpls/dumi-docs',
     },
   },
   styles: [
