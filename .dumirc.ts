@@ -9,8 +9,8 @@ export default defineConfig({
     codeBlockMode: 'passive',
   },
   themeConfig: {
-    name: 'Dumi Docs',
-    description: 'A dumi documentation template project.',
+    name: 'dumi-docs',
+    description: 'dumi-docs-description',
     nav: [
       {
         title: 'Guide',
@@ -32,6 +32,9 @@ export default defineConfig({
   },
   styles: [
     `
+    .dumi-default-hero-title {
+      font-size: 160px !important;
+    }
     .dumi-default-sidebar {
       --dumi-sidebar-width: 320px !important;
       width: 320px !important;
@@ -42,4 +45,6 @@ export default defineConfig({
       width: 320px !important;
     }`,
   ],
+  plugins: ['@umijs/plugins/dist/tailwindcss'],
+  tailwindcss: {},
 });

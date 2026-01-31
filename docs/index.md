@@ -55,9 +55,16 @@ npm run build
 npm run preview
 ```
 
+## Tailwind Demo
+
+<button class="bg-blue-500 text-white px-4 py-2 rounded-md">Get Started</button>
+
 ## Documentation
 
 - [Guide](/guide/getting-started) - Get started with the template
 - [Configuration](/guide/configuration) - Customize your documentation site
 - [Deployment](/guide/deployment) - Deploy your documentation site
+
+```
+
 ```
