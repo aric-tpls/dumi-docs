@@ -7,3 +7,6 @@ node_modules
 .idea/
 .vscode/
 .history/
+
+# Claude
+.claude/*.local.json

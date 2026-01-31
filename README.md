@@ -1,2 +1,3 @@
 # dumi-docs
-> Dumi docs template.
+
+> dumi-docs-description

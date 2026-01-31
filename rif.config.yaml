@@ -6,7 +6,7 @@ files:
   - '!node_modules'
   - '!rif.config.yaml'
 replacements:
-  - from: /dumi-docs-decription/g
+  - from: /dumi-docs-description/g
     to: Balabala desc.
   - from: /dumi-docs/g
     to: ${PROJECT_NAME}

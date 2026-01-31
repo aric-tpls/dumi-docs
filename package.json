@@ -1,7 +1,7 @@
 {
   "name": "dumi-docs",
   "version": "0.0.1",
-  "description": "Dumi docs template.",
+  "description": "dumi-docs-description",
   "private": true,
   "scripts": {
     "start": "npm run dev",
