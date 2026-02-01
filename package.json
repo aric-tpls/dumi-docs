@@ -4,7 +4,6 @@
   "description": "dumi-docs-description",
   "private": true,
   "scripts": {
-    "start": "npm run dev",
     "dev": "dumi dev",
     "build": "dumi build",
     "postbuild": "workbox generateSW workbox-config.cjs",
