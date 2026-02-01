@@ -25,7 +25,7 @@ export default defineConfig({
     nav: [
       {
         title: 'Guide',
-        link: '/guide/getting-started',
+        link: '/guide/getting-started.md',
       },
     ],
     nprogress: true,
@@ -35,9 +35,7 @@ export default defineConfig({
   },
 
   // Custom styles
-  styles: [
-    \`/* Your custom CSS here */\`,
-  ],
+  styles: [\`/* Your custom CSS here */\`],
 });
 `,paraId:2,tocIndex:2},{value:"Configure the navigation menu in ",paraId:3,tocIndex:3},{value:"themeConfig.nav",paraId:3,tocIndex:3},{value:":",paraId:3,tocIndex:3},{value:`nav: [
   {
