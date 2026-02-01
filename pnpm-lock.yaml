@@ -14,6 +14,9 @@ importers:
       '@commitlint/config-conventional':
         specifier: ^17.1.0
         version: 17.8.1
+      '@jswork/presets-tailwind':
+        specifier: ^1.2.37
+        version: 1.2.37
       '@types/react':
         specifier: ^19.2.9
         version: 19.2.9
@@ -1450,6 +1453,45 @@ packages:
 
   '@jridgewell/trace-mapping@0.3.9':
     resolution: {integrity: sha512-3Belt6tdc8bPgAtbcmdtNJlirVoTmEb5e2gC94PnkwEW9jI6CAHUeoG85tjWP5WquqfavoMtMwiG4P926ZKKuQ==}
+
+  '@jswork/presets-tailwind@1.2.37':
+    resolution: {integrity: sha512-DQ+39NkekCaJok+bnlrWlWKVW6o+qVPXM5pKY9d6A1YRvmAfTzsT7SCeu+P5a4SRJ6+aSQtC77aqQMbw9WJHrw==}
+
+  '@jswork/tailwind-blank@1.0.11':
+    resolution: {integrity: sha512-38U9Dxfzpzo7By4kS9J4A3aej/HP2IW1i8rz9kjxTnvCgR+CRKq1NaFrJzS629hcMpMMYcO452keSvVfHxTj6Q==}
+
+  '@jswork/tailwind-border@1.0.2':
+    resolution: {integrity: sha512-PEVBhdhMjGuO/OwmsZX7hRD8ipAiEayiZ3R9MaPdg9C/QK+gi409sGTgxMD1IlyZhz4xaPx2xFE9LbnITeJjYA==}
+
+  '@jswork/tailwind-font-size@1.0.11':
+    resolution: {integrity: sha512-Y79OVgS0xFN+AV2uTR3m/cY1kicBKC4azg9SEvXgS5RAtgAnUAvU5ZsZpLrC6ED9oOmuuF0BHLgu+87mZjQxGw==}
+
+  '@jswork/tailwind-font-weight@1.0.4':
+    resolution: {integrity: sha512-7oOs13YdAlgdCm6OZPexHkilIyV4l77Y9wPGjgRJnfViuSe3BY3c+Cf+8RJ1u7ifDg1SGEekUEifgHFHsoxphw==}
+
+  '@jswork/tailwind-heading@1.0.2':
+    resolution: {integrity: sha512-oQLibA9LIzLOBiGCka/hlJuTVB8IY9YkMSlW4zJQltr2zQaZ6GcFIDMow0/gDX4dWy7U2OfZ28OTTv1qlo/ZEQ==}
+
+  '@jswork/tailwind-layouts@1.0.58':
+    resolution: {integrity: sha512-PdQHwrBTPvud/W2AV4uBu5CK6b2raLbf5YAKtVh5sOgD9b4jtc1IHaNYqT/2uHnGoeiXZEZzMcCJ3uoqZ/AWLA==}
+
+  '@jswork/tailwind-lc@1.0.7':
+    resolution: {integrity: sha512-MJQ3FOTXUFsGsqXP/vTgiVQkBeDPL8rc4/Lxx+NpCtTYrUCtNJ87rfdFW11jKK4/nJju3DLQ8CXg0EAoN1omJw==}
+
+  '@jswork/tailwind-line-height@1.0.6':
+    resolution: {integrity: sha512-iQHv5qhnnp/j98uyiB0geFF26jvvVsCbc4FmZVsHqVnX0uAkoq5iW0uRP2/aKtVnA5363BGhaMLR3XnkGqYIwg==}
+
+  '@jswork/tailwind-margin@1.0.1':
+    resolution: {integrity: sha512-PsBfTGEFShH8BrtYJ7CrtyLHvDh4rYZhQOVbnLbAEN4CLaoSkf2fnVY0g5JFsDf60EPm2w+3KG0JZizebmbXbQ==}
+
+  '@jswork/tailwind-padding@1.0.2':
+    resolution: {integrity: sha512-N+JPHqDmyS4kUOYqj/DZa5DqK3UA7YZWlaNspBrJxiOjWHZxv85g/dT8ZjYXiX8iMuyxJL4evIEz5IXSnyH/lg==}
+
+  '@jswork/tailwind-shortcuts@1.0.38':
+    resolution: {integrity: sha512-i03Kt/OabOhkbdLapsc1yCq6wpmbRah9LfV2/Nu5mjwF1gv0tCs86cCo8sPV9msNKs7vdaNMv0X9Q7yL9wzlOQ==}
+
+  '@jswork/tailwind-width@1.0.7':
+    resolution: {integrity: sha512-VsQV5TP3a5SyEg4X5xOrod0Jp1IuI+SkzvaXfNDS7WNC9E38O/lQdP/jjZR7G1wU6thFoc/yPG6KUgyn/gsl+g==}
 
   '@loadable/component@5.15.2':
     resolution: {integrity: sha512-ryFAZOX5P2vFkUdzaAtTG88IGnr9qxSdvLRvJySXcUA4B4xVWurUNADu3AnKPksxOZajljqTrDEDcYjeL4lvLw==}
@@ -10154,6 +10196,45 @@ snapshots:
     dependencies:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.5.5
+
+  '@jswork/presets-tailwind@1.2.37':
+    dependencies:
+      '@jswork/tailwind-blank': 1.0.11
+      '@jswork/tailwind-border': 1.0.2
+      '@jswork/tailwind-font-size': 1.0.11
+      '@jswork/tailwind-font-weight': 1.0.4
+      '@jswork/tailwind-heading': 1.0.2
+      '@jswork/tailwind-layouts': 1.0.58
+      '@jswork/tailwind-lc': 1.0.7
+      '@jswork/tailwind-line-height': 1.0.6
+      '@jswork/tailwind-margin': 1.0.1
+      '@jswork/tailwind-padding': 1.0.2
+      '@jswork/tailwind-shortcuts': 1.0.38
+      '@jswork/tailwind-width': 1.0.7
+
+  '@jswork/tailwind-blank@1.0.11': {}
+
+  '@jswork/tailwind-border@1.0.2': {}
+
+  '@jswork/tailwind-font-size@1.0.11': {}
+
+  '@jswork/tailwind-font-weight@1.0.4': {}
+
+  '@jswork/tailwind-heading@1.0.2': {}
+
+  '@jswork/tailwind-layouts@1.0.58': {}
+
+  '@jswork/tailwind-lc@1.0.7': {}
+
+  '@jswork/tailwind-line-height@1.0.6': {}
+
+  '@jswork/tailwind-margin@1.0.1': {}
+
+  '@jswork/tailwind-padding@1.0.2': {}
+
+  '@jswork/tailwind-shortcuts@1.0.38': {}
+
+  '@jswork/tailwind-width@1.0.7': {}
 
   '@loadable/component@5.15.2(react@18.3.1)':
     dependencies:

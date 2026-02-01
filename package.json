@@ -28,6 +28,7 @@
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
+    "@jswork/presets-tailwind": "^1.2.37",
     "@types/react": "^19.2.9",
     "@umijs/plugins": "^4.6.25",
     "autoprefixer": "^10.4.24",

@@ -57,7 +57,10 @@ npm run preview
 
 ## Tailwind Demo
 
-<button class="bg-blue-500 text-white px-4 py-2 rounded-md">Get Started</button>
+<div class="debug x-5 p-2 hover:debug-blue rounded bg-slate-100">
+  <button class="bg-blue-500 text-white px-4 py-2 rounded-md">Get Started</button>
+  <button class="bg-red-200 px-4 py-2 rounded-md">Show Demo</button>
+</div>
 
 ## Documentation
 
