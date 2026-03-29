@@ -6,7 +6,8 @@
     "baseUrl": "./",
     "jsx": "react-jsx",
     "paths": {
-      "@@/*": [".dumi/tmp/*"]
+      "@@/*": [".dumi/tmp/*"],
+      "@builtins/*": [".dumi/theme/builtins/*"]
     }
   },
   "include": [".dumirc.ts"]

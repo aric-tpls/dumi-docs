@@ -1,6 +1,10 @@
 import { defineConfig } from 'dumi';
+import * as path from 'node:path';
 
 export default defineConfig({
+  alias: {
+    '@builtins': path.resolve(__dirname, '.dumi/theme/builtins'),
+  },
   base: '/dumi-docs/',
   publicPath: '/dumi-docs/',
   logo: '/dumi-docs/logo.png',
